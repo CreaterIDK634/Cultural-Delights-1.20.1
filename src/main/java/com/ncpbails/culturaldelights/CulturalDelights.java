@@ -79,6 +79,7 @@ public class CulturalDelights {
          event.accept(ModItems.BEEF_BURRITO);
          event.accept(ModItems.MUTTON_SANDWICH);
          event.accept(ModItems.FRIED_EGGPLANT_PASTA);
+         event.accept(ModItems.POACHED_EGGPLANTS);
          event.accept(ModItems.EGGPLANT_BURGER);
          event.accept(ModItems.AVOCADO_TOAST);
          event.accept(ModItems.CREAMED_CORN);

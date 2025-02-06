@@ -122,6 +122,9 @@ public class ModItems {
     public static final RegistryObject<Item> FRIED_EGGPLANT_PASTA = ITEMS.register("fried_eggplant_pasta",
             () -> new BowlFoodItem(new Item.Properties().stacksTo(16).food(ModFoods.FRIED_EGGPLANT_PASTA)));
 
+    public static final RegistryObject<Item> POACHED_EGGPLANTS = ITEMS.register("poached_eggplants",
+            () -> new BowlFoodItem(new Item.Properties().stacksTo(16).food(ModFoods.POACHED_EGGPLANTS)));
+
     public static final RegistryObject<Item> EGGPLANT_BURGER = ITEMS.register("eggplant_burger",
             () -> new Item(new Item.Properties().food(ModFoods.EGGPLANT_BURGER)));
 
